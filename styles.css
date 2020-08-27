@@ -1,0 +1,82 @@
+/* ResetCss的に */
+html {
+  width: 100%;
+}
+body {
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+}
+/* ここから */
+.top-wrapper {
+  z-index: 0;
+  background-color: aquamarine;
+  height: 400px;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+}
+
+.btn-wrapper{
+  display: flex;
+  width: 100%;
+}
+
+.btn::first-letter {
+  color: red;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.btn {
+  width: 25%;
+  background-color: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.profile {
+  background-color:lightblue;
+}
+.Books-Review {
+  background-color: saddlebrown;
+}
+.My-Life {
+  background-color: green;
+}
+#Programming {
+  background-color: magenta;
+  z-index: 1;
+}
+
+.contents-wrapper {
+  background-color: darksalmon;
+  height: 1000px;
+  border:solid 5px gray;
+}
+.left-contents {
+  background-color: red;
+  float: left;
+  width: 70%;
+}
+.right-contents {
+  background-color: blue;
+  float: right;
+  width: 30%;
+}
+footer {
+  background-color: gold;
+  height: 200px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
