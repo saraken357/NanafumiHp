@@ -1,45 +1,66 @@
 <!DOCTYPE html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8">
     <title>
-      発達障がいグレーゾーンNの現在 -生き方論考-
+      Nanafumi's Portfolio
     </title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body style="background-color: lightblue;">
     <div class="wrapper">
-      <div class="top-wrapper">
-        <div class="container">
-          <div class="btn-wrapper">
-            <a class="btn profile" href="#Profile">PROFILE</a>
-            <a class="btn Books-Review" href="#Books">BOOKS REVIEW</a>
-            <a class="btn My-Life" href="#My-Life">My LIFE</a>
-            <a class="btn Programming" href="#Programming">Programming</a>
-          </div>
+      <header>
+        <!-- サイトタイトル -->
+        <h1>Nanafumi's Portfolio</h1>
+        <p>ポートフォリオサイトです。<ins>私は人生のテーマを「自己成長」することと捉えています。</ins>ITエンジニアとしてのキャリアを積みたいと決めたのも、自己成長のための高い目標設定であります。それは例えば、これまで知識やスキルが足りなくて、できなかったことができるようになることです。生活水準が向上するという意味もあります。心から職場で生き生きと働けるようになったという意味もあると思います。現在の境遇にかかわらず、成長のために果敢にチャレンジを続けたいと考えています。</p>
+        <div class="nav-wrapper">
+          <nav>
+            <ul class="menu">
+              <!-- メニュー -->
+              <li><a class="btn prof" href="#profile">Profile</a></li>
+              <li><a class="btn sk" href="#skills">Skills</a></li>
+              <li><a class="btn wk" href="#works">Works</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="container">
-          <div class="heading">
-            <h1>発達障がいグレーゾーンNの現在 -生き方論考-</h1>
-            <p>半生過ぎてもなお半人前ですが、割と平穏な毎日を過ごしています。一介の精神障がい者として、自分なりの今の生き方を書いていきます。</p>
-            <p><a href="#top">先頭へ</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="contents-wrapper">
-        <div class="container">
-          <div class="left-contents">left</div>
-            <div id="#Profile">Programming</div>
-            <div id="#Books">Programming</div>
-            <div id="#My-Life">Programming</div>
-            <div id="#Programming">Programming</div>
-          <div class="right-contents">right</div>
-        </div>
-      </div>
+      </header>
+      <main>
+        <article>
+          <section>
+            <h2 id="profile">Profile</h2>
+            <p><img src="img/portrait_01.jpg" width="100" height="150">
+              大学を卒業してから、様々な職種を経験してきました。しかしながら、高度なスキルを身につける機会を得られないまま、数々のキャリアを終えたと振り返っています。それから私は6年ほど前に一介の精神障害者と診断されました。今後の先行きは不明ですが、精神障害者としてのキャリアをこれからの半生を過ごすことを考えました。そして、ITエンジニアとしてのキャリアをスタートさせたいと思うようになった次第です。
+            </p>            
+          </section>
+          <section>
+            <h2 id="skills">Skills</h2>
+            <p>
+              <ul>
+                <li>タッチタイピング1050words/10min</li>
+                <li>ポートフォリオサイト制作中。https://nanafumiblog5901.com/NanafumiHp/index.html</li>
+                <li>言語スキル→html,css</li>
+                <li>言語スキル（学習中）→Js,ruby,php,エクセルvba</li>
+                <li>学習中IT系資格→ITパスポート</li>
+              </ul>    
+            </p>
+          </section>
+          <section>
+            <h2 id="works">Works</h2>
+            <p>CMSとしてWordPressを使用したHP<a href="https://nanafumiblog5901.com" title="nanafumiblog5901.com">発達障がいグレーゾーンNの現在 -生き方論考-</a>
+            </p>
+          </section>
+          <section>
+            <h2 id="memo">個人学習メモ</h2>
+            <p>1.3.8.dropzone属性<br>グローバル属性であるdropzone属性が廃止されます。ドロップされたアイテムを受け取るには、その処理を行うスクリプトが必要となります。
+            </p>
+          </section>
+        </article>
+      </main>
       <footer>
-        <p><a href="#top">先頭へ</a></p>
+        <a href="#" title="先頭に戻る">先頭に戻る</a>
+        <p>&#169Nanafumi</p>
       </footer>
     </div>
-    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

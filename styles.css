@@ -1,82 +1,97 @@
-/* ResetCss的に */
-html {
-  width: 100%;
-}
-body {
-  width: 100%;
-}
 .wrapper {
-  width: 100%;
-}
-/* ここから */
-.top-wrapper {
-  z-index: 0;
-  background-color: aquamarine;
-  height: 400px;
-  margin: 0 auto;
-  position: fixed;
-  width: 100%;
+  width:960px;
+  margin:0 auto;
+  background-color: #fafafa;
 }
 
-.btn-wrapper{
-  display: flex;
-  width: 100%;
+header {
+  background-color: #fafafa;
+  height:500px;
+  /* background-color: pink;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: center; */
+  background: center/cover url(img/Atree_01.jpg);
 }
 
-.btn::first-letter {
-  color: red;
-  font-weight:bold;
-  font-size: 20px;
+main {
+  background-color: #fafafa;
+  height:1500px;
+}
+
+section {
+  margin-bottom:200px;
+  /* Offset of margin */
+  margin-top:10px;
+}
+
+footer {
+  background-color: #fafafa;
+  height:200px;
+}
+
+.menu {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
 }
 
 .btn {
-  width: 25%;
-  background-color: skyblue;
-  text-align: center;
-  padding: 4px;
-  color: #ffffff;
-  cursor: pointer;
+  border: solid 1px silver;
+  background-color: turquoise;
+  border: solid 2px blue;
+  box-sizing: border-box;
+  margin: 10px;
 }
 
-.btn:hover {
-  opacity: 0.8;
-}
-
-.profile {
-  background-color:lightblue;
-}
-.Books-Review {
-  background-color: saddlebrown;
-}
-.My-Life {
-  background-color: green;
-}
-#Programming {
-  background-color: magenta;
-  z-index: 1;
-}
-
-.contents-wrapper {
-  background-color: darksalmon;
-  height: 1000px;
-  border:solid 5px gray;
-}
-.left-contents {
-  background-color: red;
-  float: left;
-  width: 70%;
-}
-.right-contents {
-  background-color: blue;
-  float: right;
-  width: 30%;
-}
-footer {
-  background-color: gold;
-  height: 200px;
-}
-.container {
-  width: 1000px;
+.sk {
   margin: 0 auto;
 }
+wk {
+  margin-left: auto;
+}
 
+p {
+  margin-bottom: 20px;
+}
+
+h1 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* nav{
+  text-align: center;
+  } */
+
+/* nav ul{
+  margin: 0 ;
+  padding: 0 ;
+} */
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 18%;
+min-width: 90px;
+}
+nav ul li a{
+text-decoration: none;
+color: #333;
+}
+nav ul li.current a{
+color: #F33135;
+}
+nav ul li a:hover{
+color: #E7DA66;
+}
+
+.nav-wrapper {
+  text-align: center;
+}
+
+img {
+  float: right;
+}
