@@ -7,27 +7,22 @@
 header {
   background-color: #fafafa;
   height:500px;
-  /* background-color: pink;
-  background-image: url(../img/header.png);
-  background-size: cover;
-  background-position: center; */
   background: center/cover url(img/Atree_01.jpg);
 }
 
 main {
   background-color: #fafafa;
-  height:1500px;
+  height:2500px;
 }
 
 section {
-  margin-bottom:200px;
-  /* Offset of margin */
+  margin-bottom:250px;
   margin-top:10px;
 }
 
 footer {
   background-color: #fafafa;
-  height:200px;
+  height:400px;
 }
 
 .menu {
@@ -63,14 +58,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* nav{
-  text-align: center;
-  } */
-
-/* nav ul{
-  margin: 0 ;
-  padding: 0 ;
-} */
 nav ul li{
 list-style: none;
 display: inline-block;
